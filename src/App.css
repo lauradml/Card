@@ -1,38 +1,54 @@
 .App {
+  background-color: #00D5C2;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.card{
+  height: 550px;
+  width: 400px;
+  width: 50vh;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 15px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin: 10px 10px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+.img-card{
+  height: 220px;
+  width: 300px;
+  border-radius: 15px;
+
+  object-fit: cover;
+}
+
+.description{
+  text-align: left;
+}
+.container-button{
+  display: flex;
+}
+.button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 3px solid  #00D5C2;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  cursor: pointer;
+  background: #ffffff;
+  font-size: 16px;
 }

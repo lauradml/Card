@@ -14,9 +14,8 @@
   box-sizing: border-box;
 }
 .card{
-  height: 550px;
-  width: 400px;
-  width: 50vh;
+  height: 475px;
+  width: 60vh;
   border: 1px solid lightgray;
   background-color: white;
   border-radius: 15px;
@@ -27,19 +26,23 @@
   align-items: center;
 
 }
+.title{
+  color:#175e55;
+}
 .img-card{
-  height: 220px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   border-radius: 15px;
-
   object-fit: cover;
 }
 
 .description{
   text-align: left;
+  padding-left: 15px;
 }
 .container-button{
   display: flex;
+  
 }
 .button{
   width: 50px;
@@ -51,4 +54,5 @@
   cursor: pointer;
   background: #ffffff;
   font-size: 16px;
+  margin-left: 5px;
 }
